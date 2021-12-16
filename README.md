@@ -16,5 +16,5 @@ Tailwind version: 3.0.5
 
 # Todo
 
-- writing examples of the common component.
+- Writing examples of the common components.
 - Auth Boilerplate.
