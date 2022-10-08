@@ -5,11 +5,11 @@ import Card from "../common/Card";
 const AboutSection = () => {
     return (
         <section className={"min-h-screen z-10  px-32"}>
-            <section className={"flex"}>
+            <section className={"md:flex"}>
                 <div className={"flex-1"}>
                     <img className={"rounded-full h-72"} src={fellowImg} alt=""/>
                 </div>
-                <div className={"ml-5 flex-1"}>
+                <div className={"ml-5 mt-4 md:mt-0 flex-1"}>
                     <h1 className={"text-accent text-3xl font-se capitalize"}>
                         About the
                         <br/>
@@ -22,8 +22,8 @@ const AboutSection = () => {
                         alongside an apprenticeship and a guaranteed job upon graduation.</p>
                 </div>
             </section>
-            <section className={"my-16"}>
-                <div className={"flex gap-5"}>
+            <section className={"my-16 flex md:flex-none"}>
+                <div className={"md:flex gap-5"}>
                     <div className={"p-5   rounded border w-72 border-gray-200"}>
                         <div>
                             <small className={"text-accent text-center text-xs"}>Scholarship value</small>
@@ -49,16 +49,18 @@ const AboutSection = () => {
                         </div>
                     </div>
                     <div className={"flex-1"}>
-                        <div className={"flex"}>
-                            <Card>
-                                <h3 className={"text-accent"}>Study commitment</h3>
-                                <h5 className={"mt-2  text-harbour-gray antialiased"}>3 hours / day</h5>
-                                <hr className={"w-6 my-4 font-bold"}/>
-                                <p className={"text-harbour-gray antialiased"}>You will complete 15 modules to
-                                    graduate. Daily classes are 3 hours, plus
-                                    coursework to complete in your own time. </p>
-                            </Card>
-                            <div className={"ml-4"}>
+                        <div className={"md:flex flex-col "}>
+                            <div className={"mt-5 md:mt-0"}>
+                                <Card>
+                                    <h3 className={"text-accent"}>Study commitment</h3>
+                                    <h5 className={"mt-2  text-harbour-gray antialiased"}>3 hours / day</h5>
+                                    <hr className={"w-6 my-4 font-bold"}/>
+                                    <p className={"text-harbour-gray antialiased"}>You will complete 15 modules to
+                                        graduate. Daily classes are 3 hours, plus
+                                        coursework to complete in your own time. </p>
+                                </Card>
+                            </div>
+                            <div className={" mt-5 md:mt-0 md:ml-4"}>
                                 <Card>
                                     <h3 className={"text-accent"}>Work commitment</h3>
                                     <h5 className={"mt-2  text-harbour-gray antialiased"}>4 hours / day</h5>

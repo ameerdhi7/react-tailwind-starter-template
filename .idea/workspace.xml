@@ -5,12 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="63b23482-bc78-4d1b-b196-c51dae1a1d31" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/assets/images/interaction-design.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/FellowCard.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/common/Card.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/Card.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/home/AboutSection.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/home/AboutSection.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/home/IntroductionSection.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/home/IntroductionSection.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Home.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +71,7 @@
       <option name="presentableId" value="Default" />
       <updated>1639674808664</updated>
       <workItem from="1639674811437" duration="5204000" />
-      <workItem from="1665246124888" duration="8972000" />
+      <workItem from="1665246124888" duration="10764000" />
     </task>
     <servers />
   </component>

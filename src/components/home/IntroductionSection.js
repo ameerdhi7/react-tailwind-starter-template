@@ -5,7 +5,7 @@ import poweredBy from "../../assets/images/powered-by.png";
 
 const IntroductionSection = () => {
     return (
-        <section className={"flex  py-52 px-32"}>
+        <section className={"md:flex  py-52 px-32"}>
             <div className="flex-1">
                 <div
                     className={"text-accent relative text-2xl font-semibold capitalize"}>
@@ -30,7 +30,7 @@ const IntroductionSection = () => {
                     apply now
                 </button>
             </div>
-            <div className="flex-1 relative ">
+            <div className="flex-1 mt-4 md:mt-0 relative ">
 
                 <div className={"text-harbour-gray px-3 flex   capitalize"}>
                     <img src={poweredBy} className={"h-10"} alt=""/>
