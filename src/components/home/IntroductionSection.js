@@ -3,7 +3,7 @@ import React from 'react';
 const IntroductionSection = () => {
     return (
         <section className={"flex  py-52 px-32"}>
-            <section className="flex-1">
+            <div className="flex-1">
                 <div className={"text-accent text-2xl font-semibold capitalize"}>
                     <h2>
                         interaction design
@@ -24,8 +24,8 @@ const IntroductionSection = () => {
                 <button className={"capitalize mt-6 bg-accent rounded-full  py-2 px-6 text-white"}>
                     apply now
                 </button>
-            </section>
-            <section className="flex-1">
+            </div>
+            <div className="flex-1">
                 <div className={"border w-full  antialiased rounded border-harbour-gray"}>
                     <div className={"py-5 px-7"}>
                         <h4 className={"text-accent capitalize text-sm font-semibold antialiased"}>Application
@@ -61,7 +61,7 @@ const IntroductionSection = () => {
                         </div>
                     </div>
                 </div>
-            </section>
+            </div>
         </section>
     );
 };
