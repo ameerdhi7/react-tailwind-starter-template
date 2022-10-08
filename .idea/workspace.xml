@@ -5,11 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="63b23482-bc78-4d1b-b196-c51dae1a1d31" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/home/FellowsCarouselSection.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/common/FaqItem.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/home/FaqSection.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/home/AboutSection.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/home/AboutSection.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/home/FellowsCarouselSection.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/home/FellowsCarouselSection.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/home/IntroductionSection.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/home/IntroductionSection.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Home.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tailwind.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/tailwind.config.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -70,7 +74,7 @@
       <option name="presentableId" value="Default" />
       <updated>1639674808664</updated>
       <workItem from="1639674811437" duration="5204000" />
-      <workItem from="1665246124888" duration="11675000" />
+      <workItem from="1665246124888" duration="15288000" />
     </task>
     <servers />
   </component>
