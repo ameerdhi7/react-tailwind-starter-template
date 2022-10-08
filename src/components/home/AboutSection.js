@@ -4,7 +4,7 @@ import Card from "../common/Card";
 
 const AboutSection = () => {
     return (
-        <section className={"min-h-screen  px-32"}>
+        <section className={"min-h-screen z-10  px-32"}>
             <section className={"flex"}>
                 <div className={"flex-1"}>
                     <img className={"rounded-full h-72"} src={fellowImg} alt=""/>
@@ -24,7 +24,7 @@ const AboutSection = () => {
             </section>
             <section className={"my-16"}>
                 <div className={"flex gap-5"}>
-                    <div className={"p-5   rounded border w-72 border-harbour-gray"}>
+                    <div className={"p-5   rounded border w-72 border-gray-200"}>
                         <div>
                             <small className={"text-accent text-center text-xs"}>Scholarship value</small>
                             <h4 className={"text-3xl antialiased text-harbour-gray"}>€31,300</h4>

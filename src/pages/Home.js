@@ -9,7 +9,6 @@ const Home = () => {
             <Navbar/>
             <IntroductionSection/>
             <AboutSection/>
-
         </div>
 
     );
