@@ -5,19 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="63b23482-bc78-4d1b-b196-c51dae1a1d31" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/Navbar.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/common/Card.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/common/DynamicTable.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/common/Input.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/common/Modal.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lang/ar.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lang/en.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lang/setup.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Home.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/NotFound.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/NotFound.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/constants.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tailwind.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/tailwind.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,7 +67,7 @@
       <option name="presentableId" value="Default" />
       <updated>1639674808664</updated>
       <workItem from="1639674811437" duration="5204000" />
-      <workItem from="1665246124888" duration="3183000" />
+      <workItem from="1665246124888" duration="3556000" />
     </task>
     <servers />
   </component>
