@@ -2,7 +2,10 @@ import React from 'react';
 import IntroductionSection from "../components/home/IntroductionSection";
 import Navbar from "../components/Navbar";
 import AboutSection from "../components/home/AboutSection";
-import FellowCard from "../components/FellowCard";
+
+import 'swiper/css';
+import FellowsCarouselSection from "../components/home/FellowsCarouselSection";
+
 
 const Home = () => {
     return (
@@ -10,11 +13,7 @@ const Home = () => {
             <Navbar/>
             <IntroductionSection/>
             <AboutSection/>
-            {/*<div className={"flex justify-center"}>*/}
-            {/*    /!*<FellowCard/>*!/*/}
-            {/*    /!*<FellowCard/>*!/*/}
-            {/*    /!*<FellowCard/>*!/*/}
-            {/*</div>*/}
+            <FellowsCarouselSection/>
         </div>
 
     );

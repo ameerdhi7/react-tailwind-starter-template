@@ -7,9 +7,11 @@ module.exports = {
         extend: {
             colors: {
                 'accent': '#685DC5',
-                'harbour-gray':'#535353'
+                'harbour-gray': '#535353'
             },
         },
     },
-    plugins: [],
+    plugins: [
+    ]
+
 }
