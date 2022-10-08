@@ -1,6 +1,5 @@
 import React from 'react';
 import {Link} from "react-router-dom";
-import {__} from "../lang/setup";
 
 const NotFound = () => {
     return (
@@ -11,12 +10,12 @@ const NotFound = () => {
                         <code>404</code>
                     </div>
                     <p className="text-2xl md:text-3xl font-light leading-normal">
-                        {__('Sorry we could not find this page')}
+                        Sorry we could not find this page
                     </p>
                     <div className={"flex justify-center"}>
                         <Link to="/"
                               className="mt-4 capitalize block px-6 border py-2 bg-gray-800 rounded">
-                            {__("home page")}
+                            home page
                         </Link>
                     </div>
 
