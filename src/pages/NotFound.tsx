@@ -1,8 +1,8 @@
-import React from 'react';
+import React, {FC} from 'react';
 import {Link} from "react-router-dom";
 import {__} from "../lang/setup";
 
-const NotFound = () => {
+const NotFound: FC = () => {
     return (
         <div className="min-h-screen bg-gray-900 text-white   flex items-center justify-center">
             <div className="flex flex-col md:flex-row items-center justify-center px-5 text-white">

@@ -1,6 +1,12 @@
-import React from 'react';
+import React, {FC} from 'react';
 
-const Modal = (props) => {
+interface Props {
+    close: () => void,
+    title: String,
+    children?: React.ReactNode
+}
+
+const Modal: FC<Props> = (props) => {
     return (
         <div
             className="modal  modal-active transition fixed w-full h-full top-0 left-0 flex items-center justify-center">

@@ -9,4 +9,4 @@ const locals = {
 
 export const instance = new LocalizedStrings(locals);
 //simplify the interface
-export const __ = (key) => instance.getString(key);
+export const __ = (key: string) => instance.getString(key);

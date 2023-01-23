@@ -1,18 +1,30 @@
-import React from 'react';
+import React, {FC} from 'react';
 import {__} from "../../lang/setup";
 
-const Input = ({
-                   name,
-                   value,
-                   title,
-                   placeholder,
-                   handleChange,
-                   nativeType,
-                   required = true,
-                   className = "",
-                   disabled = false
-               }) => {
-    const onInputChange = (e) => {
+interface Input {
+    name: string,
+    value?: string | number,
+    title: string,
+    placeholder: string,
+    handleChange: (e: any) => any,
+    nativeType: string,
+    required: boolean,
+    className: string,
+    disabled?: boolean
+}
+
+const Input: FC<Input> = ({
+                              name,
+                              value,
+                              title,
+                              placeholder,
+                              handleChange,
+                              nativeType,
+                              required = true,
+                              className = "",
+                              disabled = false
+                          }) => {
+    const onInputChange = (e: any) => {
         handleChange(e);
     }
     return (

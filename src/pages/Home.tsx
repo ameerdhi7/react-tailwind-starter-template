@@ -1,8 +1,8 @@
-import React from 'react';
+import React, {FC} from 'react';
 import {__} from "../lang/setup";
 import Card from "../components/common/Card";
 
-const Home = () => {
+const Home: FC = () => {
     return (
         <div className="min-h-screen flex items-center justify-center text-white  bg-gray-900">
             <div className={""}>
